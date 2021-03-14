@@ -1,0 +1,71 @@
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    background-position: top -500px left -250px, top 450px right -250px;
+    background-image: url("../images/bg-pattern-top.svg"),
+      url("../images/bg-pattern-bottom.svg");
+    font-family: "Kumbh+Sans", sans-serif;
+    font-size: 18px;
+  }
+
+  .card {
+    background-color: white;
+    background-image: url("../images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 350px;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 25vh;
+  }
+
+  .image {
+    border-radius: 50%;
+    border: white solid 6px;
+    margin-top: 85px;
+    margin-left: 115px;
+  }
+
+  .name {
+    color: hsl(229, 23%, 23%);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .age {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  .light-font-color {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+
+  .stat-numbers {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+  }
+
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
